@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DSH MCP Bridge">
+  <defs>
+    <linearGradient id="bridge" x1="12" y1="18" x2="52" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#25c2a0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#0d1424"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="14.25" fill="none" stroke="#25314f" stroke-width="1.5"/>
+  <path d="M13 43c0-9.4 7.6-17 17-17h4c9.4 0 17 7.6 17 17" fill="none" stroke="url(#bridge)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M22 43v-7M32 43v-9M42 43v-7" stroke="#8fa6d8" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="13" cy="45" r="4.5" fill="#5b8cff"/>
+  <circle cx="51" cy="45" r="4.5" fill="#25c2a0"/>
+  <circle cx="32" cy="20" r="3.5" fill="#e8eeff"/>
+</svg>

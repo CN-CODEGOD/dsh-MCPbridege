@@ -1,0 +1,9 @@
+- insert:
+    - id: mcp-bridge
+      name: '@local/dsh-mcp-bridge'
+      config:
+        host: '0.0.0.0'
+        port: 18790
+        path: /mcp
+        token: ''
+        tools: []

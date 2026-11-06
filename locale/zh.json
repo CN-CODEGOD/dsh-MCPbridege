@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MCP 互通桥（DSH → OpenClaw）",
+    "description": "把本 Harness 的工具通过 Streamable HTTP 的 MCP 端点开放出去，让 OpenClaw 等 MCP 客户端直接调用 read、write、pwsh、web 等 DSH 工具。"
+  }
+}
