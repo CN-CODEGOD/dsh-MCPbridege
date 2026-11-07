@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "MCP 互通桥（DSH → OpenClaw）",
-    "description": "把本 Harness 的工具通过 Streamable HTTP 的 MCP 端点开放出去，让 OpenClaw 等 MCP 客户端直接调用 read、write、pwsh、web 等 DSH 工具。"
+    "title": "MCP Bridge (DSH ⇄ OpenClaw)",
+    "description": "让外部 MCP 客户端真正和本机 DSH 会话对话：dsh_chat 发消息并等待回复、dsh_history 读对话记录、dsh_sessions 列出会话，同时把 DSH 工具通过 Streamable HTTP 开放出去。"
   }
 }

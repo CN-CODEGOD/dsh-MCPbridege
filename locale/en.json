@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "MCP Bridge (DSH → OpenClaw)",
-    "description": "Serves this Harness's tools over a Streamable HTTP MCP endpoint so OpenClaw or another MCP client can call read, write, pwsh, web and other DSH tools directly."
+    "title": "MCP Bridge (DSH ⇄ OpenClaw)",
+    "description": "Lets an external MCP client actually talk to this Harness: dsh_chat sends a message and waits for the reply, dsh_history reads the transcript, dsh_sessions lists sessions — plus every DSH tool over Streamable HTTP."
   }
 }

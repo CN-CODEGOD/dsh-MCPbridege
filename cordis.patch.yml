@@ -6,4 +6,8 @@
         port: 18790
         path: /mcp
         token: ''
+        execSessionId: ''
+        workspace: ''
         tools: []
+        chatTools: true
+        sandbox: danger-full-access

@@ -1,8 +1,8 @@
 {
   "name": "@local/dsh-mcp-bridge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "description": "Serve DeepSeek Harness tools to external MCP clients (OpenClaw, Claude, Codex) over Streamable HTTP.",
+  "description": "Bridge a live DeepSeek Harness session to external MCP clients: chat with the agent, read its transcript, and call its tools over Streamable HTTP.",
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -13,6 +13,7 @@
     "index.js",
     "cordis.patch.yml",
     "README.md",
+    "LICENSE",
     "locale/*.json",
     "icon.svg"
   ],
